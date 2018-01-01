@@ -1,0 +1,25 @@
+{
+  "name": "funcmatic-cognito",
+  "version": "1.0.0-alpha",
+  "description": "A simple library that wraps amazon-cognito-identity-js to make cognito authentication easier to use.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Daniel Jhin Yoo <danieljyoo@gmail.com> (https://github.com/danieljyoo)",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danieljyoo/funcmatic-cognito.git"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^1.28.0",
+    "jwt-decode": "^2.2.0"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
